@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <li><center><a href="{% url 'stronaglowna' %}">Strona główna</a></center></li>
+    <h1><center>ROZKŁAD JAZDY</center></h1>
+
+
+    <h2><center>Poszę wybrać opcję</center></h2>
+    <img src="static\img\tramwaj.png" width="160" height="160" >
+
+    <img src="static\img\autobus.png" width="160" height="160" align="right">
+    <li><a href="{% url 'rozklad' %}"><p align="right"</p>Rozkład jazdy autobusów</a></li>
+    <li><a href="{% url 'tramwaje' %}"><p align="left"</p>Rozkład jazdy tramwajów</a></li>
+
+
+{% endblock %}

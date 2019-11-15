@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1><center>Rozkład jazdy tramwajów</center></h1>
+
+    <p><center>Trasy</center></p>
+    <li><a href="{% url 'jf' %}">1-Junikowo-Franowo</a></li>
+    <li><a href="{% url 'fj' %}">1-Franowo-Junikowo</a></li>
+{% endblock %}

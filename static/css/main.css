@@ -3,13 +3,13 @@ h1 {
 }
 
 body{
-  background-image: url("/static/img/bg.jpg");
+  background-image: url("/static/img/zielony.jpg");
 }
 
 input[type=file], select {
   width: 100%;
   padding: 12px 20px;
-  margin: 8px 0;
+  margin: 20px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -21,7 +21,7 @@ input[type=submit] {
   background-color: #002395;
   color: white;
   padding: 14px 20px;
-  margin: 8px 0;
+  margin: 10px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -42,7 +42,7 @@ nav ul {
 }
 
 nav ul li {
-  float: left;
+  float: center;
 }
 
 nav ul li a {
