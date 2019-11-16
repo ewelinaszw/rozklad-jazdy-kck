@@ -25,3 +25,21 @@ def jf(request):
 def fj(request):
     print('1-Franowo-Junikowo')
     return render(request, 'fj.html')
+def od(request):
+    print('2-Ogrody-Dębiec')
+    return render(request, 'od.html')
+def do(request):
+    print('2-Dębiec-Ogrody')
+    return render (request, 'do.html')
+def gw(request):
+    print('3-Górczyn-Wilczak')
+    return render (request, 'gw.html')
+def wg(request):
+    print('3-Wilczak-Górczyn')
+    return render (request, 'wg.html')
+def sp(request):
+    print('4-Starołęka-Połabska')
+    return render (request, 'sp.html')
+def ps(request):
+    print('4-Połabska-Starołęka')
+    return render (request, 'sp.html')
