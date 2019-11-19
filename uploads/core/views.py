@@ -22,24 +22,18 @@ def tramwaje(request):
 def jf(request):
     print('1-Junikowo-Franowo')
     return render(request, 'jf.html')
-def fj(request):
-    print('1-Franowo-Junikowo')
-    return render(request, 'fj.html')
 def od(request):
     print('2-Ogrody-Dębiec')
     return render(request, 'od.html')
-def do(request):
-    print('2-Dębiec-Ogrody')
-    return render (request, 'do.html')
-def gw(request):
-    print('3-Górczyn-Wilczak')
-    return render (request, 'gw.html')
 def wg(request):
     print('3-Wilczak-Górczyn')
     return render (request, 'wg.html')
 def sp(request):
     print('4-Starołęka-Połabska')
     return render (request, 'sp.html')
-def ps(request):
-    print('4-Połabska-Starołęka')
-    return render (request, 'sp.html')
+def gs(request):
+    print('5-Górczyn-Stomil')
+    return render (request, 'gs.html')
+def jm(request):
+    print('6-Junikowo-Miłostowo')
+    return render (request, 'jm.html')

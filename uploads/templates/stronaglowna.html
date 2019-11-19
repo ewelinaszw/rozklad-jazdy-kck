@@ -1,16 +1,29 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <li><center><a href="{% url 'stronaglowna' %}">Strona główna</a></center></li>
+
+
     <h1><center><font size="7">ROZKŁAD JAZDY</font></center></h1>
+    <p><center><font size="5">ZTM i MPK Poznań</font></center></p>
 
 
-    <h2><center><font size="6">Poszę wybrać opcję</font></center></h2>
-    <img src="static\img\trwamwaj.png" width="160" height="160" >
 
-    <img src="static\img\autobus.png" width="200" height="200" align="right">
-    <li><font size="6"><a href="{% url 'rozklad' %}"><p align="right"</p>Rozkład jazdy autobusów</a></font></li>
-    <li><font size="6"><a href="{% url 'tramwaje' %}"><p align="left"</p>Rozkład jazdy tramwajów</a></font></li>
-
+    <h2><u><center><font size="6">Proszę wybrać opcję:</font></center></u></h2>
+    <div id="img1">
+      <img src="static\img\trwamwaj.png"width="160" height="160">
+      <img src="static\img\autobus.png" width="200" height="200">
+    </div>
+    <div id="a">
+      <p><font size="6"><a href="{% url 'rozklad' %}">Rozkład jazdy autobusów</a></font></p>
+    </div>
+    <div id="t"
+      <p><font size="6"><a href="{% url 'tramwaje' %}">Rozkład jazdy tramwajów</a></font></p>
+    </div>
+    <div id="i">
+      <p>Niniejsza strona jest uproszczonym rozkładem jazdy. W razie potrzeby szczegółowych informacji zapraszamy na poniższą stronę:</p>
+    </div>
+    <div id="l">
+      <a href="https://www.ztm.poznan.pl/">https://www.ztm.poznan.pl/</a>
+    </div>
 
 {% endblock %}
