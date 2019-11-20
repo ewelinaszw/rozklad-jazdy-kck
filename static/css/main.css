@@ -32,24 +32,40 @@ body{
   float: right;
   width:30%;
   clear: right;
+  display: inline;
 }
 #t {
   float: left;
   width: 30%;
   clear: left;
+  display: inline;
 }
 #img1{
+  float: left;
   display: inline;
+  width: 30%;
+  clear:left;
+}
+#img2 {
+  float: right;
+  display: inline;
+  width: 18%;
+  clear: right;
 }
 #i {
 
   position: absolute;
   bottom: 0px;
+
 }
 #l {
-
   position: absolute;
   bottom: 0px;
+  
+
+}
+
+
 }
 
 #od {

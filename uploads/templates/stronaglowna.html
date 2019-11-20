@@ -9,21 +9,25 @@
 
 
     <h2><u><center><font size="6">Proszę wybrać opcję:</font></center></u></h2>
-    <div id="img1">
-      <img src="static\img\trwamwaj.png"width="160" height="160">
-      <img src="static\img\autobus.png" width="200" height="200">
-    </div>
-    <div id="a">
-      <p><font size="6"><a href="{% url 'autobusy' %}">Rozkład jazdy autobusów</a></font></p>
-    </div>
-    <div id="t"
-      <p><font size="6"><a href="{% url 'tramwaje' %}">Rozkład jazdy tramwajów</a></font></p>
-    </div>
-    <div id="i">
-      <p>Niniejsza strona jest uproszczonym rozkładem jazdy. W razie potrzeby szczegółowych informacji zapraszamy na poniższą stronę:</p>
-    </div>
-    <div id="l">
-      <a href="https://www.ztm.poznan.pl/">https://www.ztm.poznan.pl/</a>
-    </div>
+      <div id="a">
+        <p><font size="6"><a href="{% url 'autobusy' %}">Rozkład jazdy autobusów</a></font></p>
+      </div>
+      <div id="t">
+        <p><font size="6"><a href="{% url 'tramwaje' %}">Rozkład jazdy tramwajów</a></font></p>
+      </div>
+      <div id="img1">
+        <img src="static\img\trwamwaj.png"width="160" height="160">
+      </div>
+      <div id="img2">
+        <img src="static\img\autobus.png" width="200" height="200">
+      </div>
+      <div id="i">
+        <p>Niniejsza strona jest uproszczonym rozkładem jazdy. W razie potrzeby szczegółowych informacji zapraszamy na poniższą stronę:</p>
+      </div>
+      <div id="l">
+        <a href="https://www.ztm.poznan.pl/">https://www.ztm.poznan.pl/</a>
+      </div>
+
+
 
 {% endblock %}
