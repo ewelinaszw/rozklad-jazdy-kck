@@ -11,10 +11,27 @@ def stronaglowna(request):
     return render(request, 'stronaglowna.html')
 
 
-def rozklad(request):
+def autobusy(request):
     print('Rozkład jazdy autobusów')
-    return render(request, 'rozklad.html')
-
+    return render(request, 'autobusy.html')
+def AS(request):
+    print('190 AWF - Os. Sobieskiego')
+    return render(request, 'AS.html')
+def GO(request):
+    print('150 Górczyn - Ogrody')
+    return render(request, 'GO.html')
+def BK(request):
+    print('144 Boranta - Kurpińskiego')
+    return render(request, 'BK.html')
+def GSCH(request):
+    print('180 Górczyn - Sycowska Centrum Handlowe')
+    return render(request, 'GSCH.html')
+def PP(request):
+    print('170 Puszkina - Połabska')
+    return render(request, 'PP.html')
+def SG(request):
+    print('160 Strzeszyn - Garbary')
+    return render(request, 'SG.html')
 
 def tramwaje(request):
     print('Rozkład jazdy trwamwajów')

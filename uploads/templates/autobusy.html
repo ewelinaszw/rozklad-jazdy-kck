@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1><center>Rozkład jazdy autobusów</center></h1>
+
+    <p><center><font size="6">Trasy:</font></center></p>
+
+    <li><font size="6"><a href="{% url 'BK' %}">144 Boranta - Kurpińskiego/Kurpińskiego - Boranta</a></font></li>
+    <li><font size="6"><a href="{% url 'GO' %}">150 Górczyn - Ogrody/Ogrody - Górczyn</a></font></li>
+    <li><font size="6"><a href="{% url 'SG' %}">160 Strzeszyn - Garbary/Garbary - Strzeszyn</a></font></li>
+    <li><font size="6"><a href="{% url 'PP' %}">170 Puszkina - Połabska/Rondo Solidarności - Pszkina</a></font></li>
+    <li><font size="6"><a href="{% url 'GSCH' %}">180 Górczyn - Sycowska Centrum Handlowe/Sycowska Centrum Handlowe - Górczyn</a></font></li>
+    <li><font size="6"><a href="{% url 'AS' %}">190 AWF - Os. Sobieskiego/Os. Sobieskiego - AWF</a></font></li>
+{% endblock %}

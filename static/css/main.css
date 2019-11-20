@@ -167,3 +167,141 @@ body{
     display: inline;
     float: right
 }
+#AS {
+  background:#3CB371	;
+    display: block;
+    height: auto;
+    margin: 5px 5px 0;
+    overflow: auto
+}
+
+#AS ul li, #AS p {
+    color: black;
+    display: table-cell;
+    font-family: Trebuchet MS;
+    font-size: 18px;
+    height: 40px;
+    padding-left: 24px;
+    vertical-align: middle;
+    float: left
+}
+
+#AS ul {
+    display: inline;
+    float: right
+}
+#BK {
+  background:#3CB371	;
+    display: block;
+    height: auto;
+    margin: 5px 5px 0;
+    overflow: auto
+}
+
+#BK ul li, #BK p {
+    color: black;
+    display: table-cell;
+    font-family: Trebuchet MS;
+    font-size: 18px;
+    height: 40px;
+    padding-left: 24px;
+    vertical-align: middle;
+    float: left
+}
+
+#BK ul {
+    display: inline;
+    float: right
+}
+#GO {
+  background:#3CB371	;
+    display: block;
+    height: auto;
+    margin: 5px 5px 0;
+    overflow: auto
+}
+
+#GO ul li, #GO p {
+    color: black;
+    display: table-cell;
+    font-family: Trebuchet MS;
+    font-size: 18px;
+    height: 40px;
+    padding-left: 24px;
+    vertical-align: middle;
+    float: left
+}
+
+#GO ul {
+    display: inline;
+    float: right
+}
+#GSCH {
+  background:#3CB371	;
+    display: block;
+    height: auto;
+    margin: 5px 5px 0;
+    overflow: auto
+}
+
+#GSCH ul li, #GSCH p {
+    color: black;
+    display: table-cell;
+    font-family: Trebuchet MS;
+    font-size: 18px;
+    height: 40px;
+    padding-left: 24px;
+    vertical-align: middle;
+    float: left
+}
+
+#GSCH ul {
+    display: inline;
+    float: right
+}
+#PP {
+  background:#3CB371	;
+    display: block;
+    height: auto;
+    margin: 5px 5px 0;
+    overflow: auto
+}
+
+#PP ul li, #PP p {
+    color: black;
+    display: table-cell;
+    font-family: Trebuchet MS;
+    font-size: 18px;
+    height: 40px;
+    padding-left: 24px;
+    vertical-align: middle;
+    float: left
+}
+
+#PP ul {
+    display: inline;
+    float: right
+}
+#SG {
+  background:#3CB371	;
+    display: block;
+    height: auto;
+    margin: 5px 5px 0;
+    overflow: auto
+}
+
+#SG ul li, #SG p {
+    color: black;
+    display: table-cell;
+    font-family: Trebuchet MS;
+    font-size: 18px;
+    height: 40px;
+    padding-left: 24px;
+    vertical-align: middle;
+    float: left
+}
+
+#SG ul {
+    display: inline;
+    float: right
+}
