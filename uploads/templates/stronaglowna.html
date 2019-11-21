@@ -9,17 +9,18 @@
 
 
     <h2><u><center><font size="6">Proszę wybrać opcję:</font></center></u></h2>
-      <div id="a">
-        <p><font size="6"><a href="{% url 'autobusy' %}">Rozkład jazdy autobusów</a></font></p>
-      </div>
+
       <div id="t">
-        <p><font size="6"><a href="{% url 'tramwaje' %}">Rozkład jazdy tramwajów</a></font></p>
+        <input type="button" value="Rozkład jazdy tramwajów" style="width: 250px; height: 45px" onclick="location.href='trawmaje/';"/>
+      </div>
+      <div id="a">
+        <input type="button" value="Rozkład jazdy autobusów" style="width: 230px; height: 45px" onclick="location.href='autobusy/';"/>
       </div>
       <div id="img1">
-        <img src="static\img\trwamwaj.png"width="160" height="160">
+        <img src="static\img\trwamwaj.png" width="230" height="200">
       </div>
       <div id="img2">
-        <img src="static\img\autobus.png" width="200" height="200">
+        <img src="static\img\autobus.png" width="200" height="180">
       </div>
       <div id="i">
         <p>Niniejsza strona jest uproszczonym rozkładem jazdy. W razie potrzeby szczegółowych informacji zapraszamy na poniższą stronę:</p>

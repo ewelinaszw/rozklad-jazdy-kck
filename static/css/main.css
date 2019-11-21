@@ -1,5 +1,5 @@
 h1 {
-  color: #002395;
+  color: 	#006400;
 }
 
 body{
@@ -28,17 +28,50 @@ body{
     display: inline;
     float: right
 }
-#a {
+#a [type=button]{
   float: right;
-  width:30%;
+  width: 18%;
   clear: right;
   display: inline;
+  background-color: #FFD700
+
 }
-#t {
+#a [type=button]:hover {
+  background-color: 	#DAA520
+
+}
+#t [type=button]{
   float: left;
   width: 30%;
   clear: left;
   display: inline;
+  background-color: #FFD700
+
+}
+#t [type=button]:hover {
+  background-color: 	#DAA520
+}
+#back [type=button]{
+  position: absolute;
+  bottom: 0px;
+  left:525px;
+  top: 500px;
+  background-color: #FFD700
+}
+#back [type="button"]:hover{
+  background-color: #DAA520
+}
+#powrót [type="button"]:hover{
+  background-color: #DAA520
+}
+#powrót [type=button]{
+  position: absolute;
+  bottom: 0px;
+  left:525px;
+  top: 500px;
+  background-color: #FFD700;
+
+
 }
 #img1{
   float: left;
@@ -55,13 +88,16 @@ body{
 #i {
 
   position: absolute;
+  left:250px;
+  top: 500px;
   bottom: 0px;
 
 }
 #l {
   position: absolute;
   bottom: 0px;
-  
+  left:525px;
+  top: 550px;
 
 }
 
